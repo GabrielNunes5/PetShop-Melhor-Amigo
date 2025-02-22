@@ -64,12 +64,12 @@ git clone https://github.com/seu-usuario/petshop-melhor-amigo.git
 
 ## Navegue até o diretório do projeto:
 ``` bash
-cd Projeto-Melhor-Amigo-Infinity
+cd Projeto-Melhor-Amigo
 ```
 
 ## Instale as dependências:
 ``` bash
-cd npm install
+npm install
 ```
 
 ## Inicie o servidor de desenvolvimento:

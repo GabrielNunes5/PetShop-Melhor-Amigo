@@ -7,28 +7,28 @@ const products = {
       name: 'Banho',
       price: 'R$ 45,00',
       description: 'Banho completo com produtos especializados',
-      image: 'https://images.unsplash.com/photo-1516734212186-65266f08a5e4?auto=format&fit=crop&w=800'
+      image: 'https://labovet.com.br/wp-content/uploads/2023/07/banho-em-cachorro-saiba-qual-e-a-frequencia-ideal.jpg'
     },
     {
       id: 2,
       name: 'Tosa',
       price: 'R$ 55,00',
       description: 'Tosa higiênica ou na máquina',
-      image: 'https://images.unsplash.com/photo-1516734212186-65266f08a5e4?auto=format&fit=crop&w=800'
+      image: 'https://blog.cobasi.com.br/wp-content/uploads/2020/09/banho-tosa.png'
     }
   ],
   food: [
     {
       id: 3,
       name: 'Ração Premium',
-      price: 'R$ 89,90',
+      price: 'R$ 89,90/Kg',
       description: 'Ração de alta qualidade para cães adultos',
       image: 'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=800'
     },
     {
       id: 4,
       name: 'Ração Filhotes',
-      price: 'R$ 99,90',
+      price: 'R$ 99,90/Kg',
       description: 'Ração especial para filhotes',
       image: 'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=800'
     }
