@@ -30,6 +30,21 @@ const photos = [
     id: 6,
     url: 'https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=800',
     caption: 'Bob todo feliz'
+  },
+  {
+    id: 7,
+    url: './src/assets/melhor.jpg',
+    caption: 'Lorem ipsum dolor sit amet consectetur'
+  },
+  {
+    id: 8,
+    url: './src/assets/pet-shop.jpg',
+    caption: 'Lorem ipsum dolor sit amet consectetur'
+  },
+  {
+    id: 8,
+    url: './src/assets/familia-comprando.jpg',
+    caption: 'Lorem ipsum dolor sit amet consectetur'
   }
 ];
 

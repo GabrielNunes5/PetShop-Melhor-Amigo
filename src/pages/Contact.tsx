@@ -154,7 +154,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="bg-green-50 p-6 rounded-lg shadow-lg mt-2">
+          <div className="bg-white p-6 rounded-lg shadow-lg mt-2">
             <h2 className="text-2xl font-semibold mb-2">Agendamento</h2>
             <p className="mb-2">
               Para agendar um serviço, entre em contato por telefone ou preencha o formulário ao lado. Retornaremos o mais breve possível.

@@ -69,7 +69,7 @@ cd PetShop-Melhor-Amigo
 
 ## Instale as dependências:
 ``` bash
-cd npm install
+npm install
 ```
 
 ## Inicie o servidor de desenvolvimento:
