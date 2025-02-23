@@ -41,9 +41,9 @@ pelo petshop; e uma página de contato, que permitirá aos visitantes enviar men
    - Informações de contato adicionais.
 
 ### Design e Estilo
-- Cores: Branco e Verde, alinhadas à identidade visual do Petshop.
-- Design responsivo e moderno.
-- Ênfase em imagens de animais felizes e saudáveis.
+    - Cores: Branco e Verde, alinhadas à identidade visual do Petshop.
+    - Design responsivo e moderno.
+    - Ênfase em imagens de animais felizes e saudáveis.
 
 ## Considerações Finais
 O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produtos oferecidos, fácil de usar e responsivo.
@@ -59,12 +59,12 @@ O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produto
 
 ## Clone o repositório:
 ``` bash
-git clone https://github.com/seu-usuario/petshop-melhor-amigo.git
+git clone https://github.com/GabrielNunes5/PetShop-Melhor-Amigo.git
 ```
 
 ## Navegue até o diretório do projeto:
 ``` bash
-cd Projeto-Melhor-Amigo-Infinity
+cd PetShop-Melhor-Amigo
 ```
 
 ## Instale as dependências:
