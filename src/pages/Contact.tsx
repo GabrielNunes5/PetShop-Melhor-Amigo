@@ -35,7 +35,7 @@ function Contact() {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold text-center mb-4">Entre em Contato</h1>
       <p className="text-xl mb-4">
-        Estamos ansiosos para conhecê-lo e ao seu melhor amigo! Visite-nos no  Petshop "Melhor Amigo" e descubra a diferença que fazemos na vida dos animais de estimação. Entre em contato conosco por telefone, e-mail ou através do nosso formulário de contato no nosso site. Seu pet merece o melhor, e nós estamos aqui para fornecer exatamente isso. Confie no Petshop Melhor Amigo para cuidar do seu melhor amigo como se fosse nosso próprio.
+        Estamos ansiosos para conhecê-lo e ao seu melhor amigo! Visite-nos no  Petshop Melhor Amigo e descubra a diferença que fazemos na vida dos animais de estimação. Entre em contato conosco por telefone, e-mail ou através do nosso formulário de contato no nosso site. Seu pet merece o melhor, e nós estamos aqui para fornecer exatamente isso. Confie no Petshop Melhor Amigo para cuidar do seu melhor amigo como se fosse nosso próprio.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -150,7 +150,7 @@ function Contact() {
             <div className="space-y-2">
               <p>Segunda a Sexta: 8h às 19h</p>
               <p>Sábado: 8h às 19h</p>
-              <p>Domingo: 8h às 12h</p>
+              <p>Domingo: 9h às 15h</p>
             </div>
           </div>
 

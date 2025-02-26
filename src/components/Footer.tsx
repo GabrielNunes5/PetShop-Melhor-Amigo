@@ -32,7 +32,7 @@ function Footer() {
             <p className="text-green-100">Domingo: 9h às 15h</p>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-green-500 text-center text-green-100">
+        <div className="mt-4 pt-4 border-t border-green-500 text-center text-green-100">
           <p>&copy; 2024 Petshop Melhor Amigo. Todos os direitos reservados.</p>
         </div>
       </div>
