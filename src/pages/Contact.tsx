@@ -50,10 +50,11 @@ function Contact() {
                 type="text"
                 id="name"
                 name="name"
+                placeholder='Nome Completo'
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                className="mt-1 p-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
               />
             </div>
 
@@ -65,10 +66,11 @@ function Contact() {
                 type="email"
                 id="email"
                 name="email"
+                placeholder='exemple@exemple.com'
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                className="mt-1 p-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
               />
             </div>
 
@@ -78,12 +80,13 @@ function Contact() {
               </label>
               <input
                 type="tel"
+                placeholder='(11) 1234-5678'
                 id="phone"
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                className="mt-1 p-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
               />
             </div>
 
@@ -94,11 +97,12 @@ function Contact() {
               <textarea
                 id="message"
                 name="message"
+                placeholder='Digite sua mensagem...'
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+                className="mt-1 p-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
               ></textarea>
             </div>
 
