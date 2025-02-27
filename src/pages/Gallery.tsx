@@ -33,17 +33,17 @@ const photos = [
   },
   {
     id: 7,
-    url: './src/assets/melhor.jpg',
+    url: './src/public/assets/melhor.jpg',
     caption: 'Lorem ipsum dolor sit amet consectetur'
   },
   {
     id: 8,
-    url: './src/assets/pet-shop.jpg',
+    url: './src/public/assets/pet-shop.jpg',
     caption: 'Lorem ipsum dolor sit amet consectetur'
   },
   {
     id: 8,
-    url: './src/assets/familia-comprando.jpg',
+    url: './src/public/assets/familia-comprando.jpg',
     caption: 'Lorem ipsum dolor sit amet consectetur'
   }
 ];
