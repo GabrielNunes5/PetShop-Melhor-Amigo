@@ -1,9 +1,40 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { PawPrint as Paw, Menu, X } from 'lucide-react';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        menuRef.current &&
+        buttonRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        !buttonRef.current.contains(event.target as Node)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      window.addEventListener('resize', handleResize);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [isMenuOpen]);
 
   return (
     <nav className="bg-green-600 text-white shadow-lg">
@@ -24,7 +55,8 @@ function Navbar() {
 
           {/* Botão do menu hamburger para mobile */}
           <button
-            className="md:hidden p-2 rounded-md hover:text-green-200 hover:bg-green-700 transition-colors"
+            ref={buttonRef}
+            className="md:hidden p-4 rounded-md hover:text-green-200 hover:bg-green-700 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Abrir menu"
           >
@@ -34,7 +66,7 @@ function Navbar() {
 
         {/* Menu mobile */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 bg-green-600 z-50">
+          <div ref={menuRef} className="md:hidden absolute top-16 left-0 right-0 bg-green-600 z-50">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
                 to="/"
