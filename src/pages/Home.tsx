@@ -5,23 +5,31 @@ function Home() {
   return (
     <div className="space-y-16 py-6">
       {/* Hero Section */}
-      <section className="relative h-[500px]">
+      <section className="relative min-h-[70vh] md:h-[500px]">
         <div className="absolute inset-0">
           <img
             src="https://img.freepik.com/fotos-gratis/cao-bonito-do-grupo-de-cachorro-beagle-sentado-e-ofegante_1150-18198.jpg"
-            alt="Dog being groomed"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left">
-          <div className="text-white">
-            <h1 className="text-5xl font-bold mb-4">Bem-vindo ao Melhor Amigo</h1>
-            <p className="text-xl mb-8">Cuidando do seu pet com amor e dedicação</p>
-            <p className="text-xl mb-8">No Petshop Melhor Amigo, nós entendemos que seu animal de estimação é mais do que apenas um bichinho, é um membro especial da sua família. Com isso em mente, estamos comprometidos em fornecer cuidados excepcionais e serviços de alta qualidade para garantir que seu melhor amigo tenha uma vida feliz e saudável.</p>
+          <div className="text-white px-2">
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+              Bem-vindo ao Melhor Amigo
+            </h1>
+            <p className="text-lg md:text-2xl mb-4">
+              Cuidando do seu pet com amor e dedicação
+            </p>
+            <p className="text-base md:text-lg mb-6 md:mb-8 leading-relaxed">
+              No Petshop Melhor Amigo, nós entendemos que seu animal de estimação é mais 
+              do que apenas um bichinho, é um membro especial da sua família. Com isso em 
+              mente, estamos comprometidos em fornecer cuidados excepcionais e serviços de 
+              alta qualidade para garantir que seu melhor amigo tenha uma vida feliz e saudável.
+            </p>
             <Link
               to="/produtos"
-              className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition-colors"
+              className="bg-green-600 text-white px-4 py-2 md:px-8 md:py-3 rounded-lg hover:bg-green-700 transition-colors text-sm md:text-base"
             >
               Conheça Nossos Produtos
             </Link>
