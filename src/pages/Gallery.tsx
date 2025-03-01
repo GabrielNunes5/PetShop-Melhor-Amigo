@@ -33,18 +33,18 @@ const photos = [
   },
   {
     id: 7,
-    url: 'assets/melhor.jpg',
-    caption: 'Lorem ipsum dolor sit amet consectetur'
+    url: 'assets/lily.jpg',
+    caption: 'Ana saindo com Lily após um banho'
   },
   {
     id: 8,
-    url: 'assets/pet-shop.jpg',
-    caption: 'Lorem ipsum dolor sit amet consectetur'
+    url: 'assets/pedro.jpg',
+    caption: 'Pedro comprando brinquedos para seus pets'
   },
   {
     id: 8,
     url: '/assets/familia-comprando.jpg',
-    caption: 'Lorem ipsum dolor sit amet consectetur'
+    caption: 'Bela e sua familia nas compras'
   }
 ];
 
@@ -59,16 +59,18 @@ function Gallery() {
         {photos.map(photo => (
           <div
             key={photo.id}
-            className="cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            className="group cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             onClick={() => setSelectedPhoto(photo)}
           >
-            <img
+            <div className="relative aspect-[4/3]">
+              <img
               src={photo.url}
               alt={photo.caption}
-              className="w-full h-64 object-cover"
+              className="w-full h-full object-scale-down"
             />
+            </div>
             <div className="p-4 bg-white">
-              <p className="text-gray-700">{photo.caption}</p>
+              <p className="text-gray-700 text-center line-clamp-2">{photo.caption}</p>
             </div>
           </div>
         ))}
@@ -77,17 +79,19 @@ function Gallery() {
       {/* Modal for enlarged photo */}
       {selectedPhoto && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50"
+          className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center p-4 z-50"
           onClick={() => setSelectedPhoto(null)}
         >
-          <div className="max-w-4xl w-full bg-white rounded-lg overflow-hidden">
-            <img
+          <div className="max-w-4xl w-full max-h-[90vh] flex flex-col bg-white rounded-lg overflow-hidden">
+            <div className="flex-1 relative overflow-auto">
+              <img 
               src={selectedPhoto.url}
               alt={selectedPhoto.caption}
-              className="w-full h-auto"
+              className="w-full h-auto max-h-[70vh] object-contain mx-auto"
             />
-            <div className="p-4">
-              <p className="text-xl">{selectedPhoto.caption}</p>
+            </div>
+            <div className="p-4 bg-white border-t-2 border-green-600 sticky bottom-0">
+              <p className="text-xl text-center text-gray-800 font-medium">{selectedPhoto.caption}</p>
             </div>
           </div>
         </div>
