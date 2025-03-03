@@ -34,7 +34,7 @@ function Contact() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold text-center mb-4">Entre em Contato</h1>
-      <p className="text-xl mb-4">
+      <p className="text-xl mb-4 leading-relaxed text-center">
         Estamos ansiosos para conhecê-lo e ao seu melhor amigo! Visite-nos no  Petshop Melhor Amigo e descubra a diferença que fazemos na vida dos animais de estimação. Entre em contato conosco por telefone, e-mail ou através do nosso formulário de contato no nosso site. Seu pet merece o melhor, e nós estamos aqui para fornecer exatamente isso. Confie no Petshop Melhor Amigo para cuidar do seu melhor amigo como se fosse nosso próprio.
       </p>
 

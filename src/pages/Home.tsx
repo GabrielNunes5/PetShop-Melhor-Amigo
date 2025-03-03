@@ -15,13 +15,13 @@ function Home() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col justify-center items-center text-center md:items-start md:text-left">
           <div className="text-white px-2">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+            <h1 className="text-3xl md:text-5xl font-bold mb-4 mt-4">
               Bem-vindo ao Melhor Amigo
             </h1>
             <p className="text-lg md:text-2xl mb-4">
               Cuidando do seu pet com amor e dedicação
             </p>
-            <p className="text-base md:text-lg mb-6 md:mb-8 leading-relaxed">
+            <p className="text-lg mb-6 md:mb-8 leading-relaxed">
               No Petshop Melhor Amigo, nós entendemos que seu animal de estimação é mais 
               do que apenas um bichinho, é um membro especial da sua família. Com isso em 
               mente, estamos comprometidos em fornecer cuidados excepcionais e serviços de 
@@ -40,7 +40,7 @@ function Home() {
       {/* Services Section */}
       <section className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Nossos Serviços</h2>
-        <p className="text-xl mb-8">Com uma equipe dedicada e apaixonada por animais, nossos profissionais  treinados estão prontos para oferecer os melhores cuidados para o seu pet. Desde serviços de tosa profissional, onde deixaremos seu animalzinho com um visual impecável, até a limpeza e higienização completa, proporcionamos um ambiente seguro e tranquilo para que seu amigo se sinta confortável durante todo o processo.</p>
+        <p className="text-xl mb-8 leading-relaxed text-center">Com uma equipe dedicada e apaixonada por animais, nossos profissionais  treinados estão prontos para oferecer os melhores cuidados para o seu pet. Desde serviços de tosa profissional, onde deixaremos seu animalzinho com um visual impecável, até a limpeza e higienização completa, proporcionamos um ambiente seguro e tranquilo para que seu amigo se sinta confortável durante todo o processo.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center p-6 rounded-lg shadow-lg">
             <Scissors className="h-12 w-12 mx-auto mb-4 text-green-600" />

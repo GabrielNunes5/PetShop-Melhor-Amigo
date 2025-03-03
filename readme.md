@@ -10,16 +10,18 @@
 ## Detalhes do Projeto
 - **Prazo Máximo de Entrega**: 60 dias
 - **Linguagens Utilizadas**: 
-    - React
-    - React Router
-    - Lucide React (ícones)
-    - Tailwind CSS (estilização)
+   -React
+   -React Router
+   -Lucide React (ícones)
+   -Tailwind CSS (estilização)
 
 ## Objetivo
 Criar um hotsite para o Petshop "Melhor Amigo" com o intuito de promover seus serviços e
-produtos. O site deverá conter três páginas principais: uma página de produtos, com foco em
-limpeza, tosa e venda de ração; uma página de galeria de fotos, exibindo animais atendidos
-pelo petshop; e uma página de contato, que permitirá aos visitantes enviar mensagens.
+produtos. O site deverá conter três páginas principais: 
+   - Uma página de produtos, com foco em limpeza, tosa e venda de ração;
+   - Uma página de galeria de fotos, exibindo animais atendidos pelo petshop;
+   - Uma página de contato, que permitirá aos visitantes enviar mensagens.
+
 ### Estrutura e Funcionalidades do Site
 1. **Página Inicial**:
    - Layout limpo e organizado.
@@ -41,12 +43,9 @@ pelo petshop; e uma página de contato, que permitirá aos visitantes enviar men
    - Informações de contato adicionais.
 
 ### Design e Estilo
-    - Cores: Branco e Verde, alinhadas à identidade visual do Petshop.
-    - Design responsivo e moderno.
-    - Ênfase em imagens de animais felizes e saudáveis.
-
-## Considerações Finais
-O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produtos oferecidos, fácil de usar e responsivo.
+   -Cores: Branco e Verde, alinhadas à identidade visual do Petshop.
+   -Design responsivo e moderno.
+   -Ênfase em imagens de animais felizes e saudáveis.
 
 ### Descrição dos Arquivos
 
@@ -54,6 +53,10 @@ O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produto
 - **Gallery.tsx**: Exibe uma galeria de fotos de animais.
 - **Products.tsx**: Lista produtos e serviços disponíveis.
 - **Contact.tsx**: Formulário de contato e informações adicionais.
+
+## Hospedagem
+O site está hospedado no **Vercel**, garantindo uma performance rápida e uma experiência de usuário fluida.
+Link do site na [Vercel](https://projeto-melhor-amigo-infinity.vercel.app/)!
 
 ### Como Executar o Projeto
 
@@ -76,3 +79,11 @@ npm install
 ``` bash
 npm run dev
 ```
+
+## Considerações Finais
+O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produtos oferecidos, fácil de usar e responsivo.
+
+### **Autor**
+Gabriel Nunes
+
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/gabriel-nunes-085gn)!

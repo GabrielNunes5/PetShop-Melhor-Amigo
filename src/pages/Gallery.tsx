@@ -54,7 +54,7 @@ function Gallery() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold text-center mb-12">Galeria de Fotos</h1>
-      <p className="text-xl mb-8">Nossa galeria de fotos é o reflexo do nosso amor e cuidado pelos animais. Aqui, você poderá ver alguns dos adoráveis clientes que já passaram pelo nosso petshop. É um verdadeiro prazer atender a cada um deles e contribuir para o seu bem-estar e felicidade.</p>
+      <p className="text-xl mb-8 leading-relaxed text-center">Nossa galeria de fotos é o reflexo do nosso amor e cuidado pelos animais. Aqui, você poderá ver alguns dos adoráveis clientes que já passaram pelo nosso petshop. É um verdadeiro prazer atender a cada um deles e contribuir para o seu bem-estar e felicidade.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {photos.map(photo => (
           <div
