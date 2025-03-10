@@ -10,10 +10,10 @@
 ## Detalhes do Projeto
 - **Prazo Máximo de Entrega**: 60 dias
 - **Linguagens Utilizadas**: 
-   -React
-   -React Router
-   -Lucide React (ícones)
-   -Tailwind CSS (estilização)
+   - React
+   - React Router
+   - Lucide React (ícones)
+   - Tailwind CSS (estilização)
 
 ## Objetivo
 Criar um hotsite para o Petshop "Melhor Amigo" com o intuito de promover seus serviços e
@@ -43,9 +43,9 @@ produtos. O site deverá conter três páginas principais:
    - Informações de contato adicionais.
 
 ### Design e Estilo
-   -Cores: Branco e Verde, alinhadas à identidade visual do Petshop.
-   -Design responsivo e moderno.
-   -Ênfase em imagens de animais felizes e saudáveis.
+   - Cores: Branco e Verde, alinhadas à identidade visual do Petshop.
+   - Design responsivo e moderno.
+   - Ênfase em imagens de animais felizes e saudáveis.
 
 ### Descrição dos Arquivos
 
