@@ -58,6 +58,23 @@ produtos. O site deverá conter três páginas principais:
 O site está hospedado no **Vercel**, garantindo uma performance rápida e uma experiência de usuário fluida.
 Link do site na [Vercel](https://projeto-melhor-amigo-infinity.vercel.app/)!
 
+### Galeria do Projeto
+1. **Tela Inicial -**
+   **Desktop**
+      ![Tela Inicial](https://i.ibb.co/R4Tfctn4/image.png)
+   **Mobile**
+
+2. **Tela de Produtos:**
+   **Desktop**
+      ![Tela de Produtos](https://i.ibb.co/DfPF5NF5/imagem-2025-04-02-074818613.png)
+   **Mobile**
+
+3. **Tela de Contato**
+   **Desktop**
+      ![Tela de Contato](https://i.ibb.co/hFSS78vS/imagem-2025-04-02-074854772.png)
+   **Mobile**
+
+
 ### Como Executar o Projeto
 
 ## Clone o repositório:
