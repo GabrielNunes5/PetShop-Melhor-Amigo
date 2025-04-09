@@ -66,7 +66,7 @@ Link do site na [Vercel](https://projeto-melhor-amigo-infinity.vercel.app/)!
 
 2. **Tela de Produtos:**
    **Desktop**
-      ![Tela de Produtos](https://imgur.com/a/5SmoaSr)
+      ![Tela de Produtos](https://i.imgur.com/jDBlaL0.png)
    **Mobile**
 
 3. **Tela de Contato**
