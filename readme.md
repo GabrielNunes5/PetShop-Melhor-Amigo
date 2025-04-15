@@ -58,23 +58,6 @@ produtos. O site deverá conter três páginas principais:
 O site está hospedado no **Vercel**, garantindo uma performance rápida e uma experiência de usuário fluida.
 Link do site na [Vercel](https://projeto-melhor-amigo-infinity.vercel.app/)!
 
-### Galeria do Projeto
-1. **Tela Inicial -**
-   **Desktop**
-      ![Tela Inicial](https://i.ibb.co/R4Tfctn4/image.png)
-   **Mobile**
-
-2. **Tela de Produtos:**
-   **Desktop**
-      ![Tela de Produtos](https://i.imgur.com/jDBlaL0.png)
-   **Mobile**
-
-3. **Tela de Contato**
-   **Desktop**
-      ![Tela de Contato](https://i.ibb.co/hFSS78vS/imagem-2025-04-02-074854772.png)
-   **Mobile**
-
-
 ### Como Executar o Projeto
 
 ## Clone o repositório:
@@ -99,6 +82,24 @@ npm run dev
 
 ## Considerações Finais
 O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produtos oferecidos, fácil de usar e responsivo.
+
+### Galeria do Projeto
+1. **Tela Inicial -**
+   **Desktop**
+      ![Tela Inicial](https://i.imgur.com/rEkGXky.png)
+   **Mobile**
+      ![Tela Inicial](https://i.imgur.com/Bbk7mQx.png)
+
+2. **Tela de Produtos:**
+   **Desktop**
+      ![Tela de Produtos](https://i.imgur.com/jDBlaL0.png)
+   **Mobile**
+      ![Tela de Produtos](https://i.imgur.com/VnVbrbs.png)
+3. **Tela de Contato**
+   **Desktop**
+      ![Tela de Contato](https://i.imgur.com/kRmBG1A.png)
+   **Mobile**
+      ![Tela de Contato](https://i.imgur.com/f7Rkg6s.png)
 
 ### **Autor**
 Gabriel Nunes
