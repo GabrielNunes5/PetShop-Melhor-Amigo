@@ -86,20 +86,20 @@ O hotsite "Melhor Amigo" é uma representação atraente dos serviços e produto
 ### Galeria do Projeto
 1. **Tela Inicial -**
    **Desktop**
-      ![Tela Inicial](https://i.imgur.com/rEkGXky.png)
+      <img src="https://i.imgur.com/rEkGXky.png" width="300">
    **Mobile**
-      ![Tela Inicial](https://i.imgur.com/Bbk7mQx.png)
+      <img src="https://i.imgur.com/Bbk7mQx.png" width="200">
 
 2. **Tela de Produtos:**
    **Desktop**
-      ![Tela de Produtos](https://i.imgur.com/jDBlaL0.png)
+      <img src="https://i.imgur.com/jDBlaL0.png" width="300">
    **Mobile**
-      ![Tela de Produtos](https://i.imgur.com/VnVbrbs.png)
+      <img src="https://i.imgur.com/VnVbrbs.png" width="200">
 3. **Tela de Contato**
    **Desktop**
-      ![Tela de Contato](https://i.imgur.com/kRmBG1A.png)
+      <img src="https://i.imgur.com/kRmBG1A.png" width="300">
    **Mobile**
-      ![Tela de Contato](https://i.imgur.com/f7Rkg6s.png)
+      <img src="https://i.imgur.com/f7Rkg6s.png" width="200">
 
 ### **Autor**
 Gabriel Nunes
